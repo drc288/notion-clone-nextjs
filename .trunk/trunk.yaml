@@ -13,10 +13,11 @@ runtimes:
     - node@18.12.1
     - python@3.10.8
 lint:
+  disabled:
+    - git-diff-check
   enabled:
     - checkov@2.5.9
     - eslint@8.51.0
-    - git-diff-check
     - markdownlint@0.37.0
     - prettier@3.0.3
     - svgo@3.0.2
